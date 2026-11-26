@@ -64,8 +64,3 @@ duckdb.sql("""
 """).show()
 ```
 
-## Próximos pasos
-
-- Cambiar la fuente por un dataset abierto de Colombia (datos.gov.co) y ajustar `ventas_limpias` a sus columnas.
-- Programar la ejecución diaria con cron o un orquestador como Airflow.
-- Migrar las transformaciones SQL a dbt con `dbt-duckdb`.
